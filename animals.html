@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Animals - WildScape Zoo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+   <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>WildScape Zoo</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
+                    <li class="nav-item"><a href="animals.html" class="nav-link">Animals</a></li>
+                    <li class="nav-item"><a href="visit.html" class="nav-link">Visit</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Our Animal Residents</h1>
+                <p>Discover the incredible wildlife at WildScape Zoo</p>
+            </div>
+        </section>
+
+        <section class="animals-filter">
+            <div class="container">
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All Animals</button>
+                    <button class="filter-btn" data-filter="mammals">Mammals</button>
+                    <button class="filter-btn" data-filter="birds">Birds</button>
+                    <button class="filter-btn" data-filter="reptiles">Reptiles</button>
+                    <button class="filter-btn" data-filter="aquatic">Aquatic</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="animals-gallery">
+            <div class="container">
+                <div class="animals-container">
+                    <div class="animal-item" data-category="mammals">
+                        <img src="images/lion.jpg" alt="African Lion">
+                        <div class="animal-info">
+                            <h3>African Lion</h3>
+                            <p>Panthera leo</p>
+                            <p class="status">Vulnerable</p>
+                            <button class="info-toggle">Learn More</button>
+                            <div class="animal-details">
+                                <p>African lions are social cats that live in prides. Our pride consists of 2 males, 4 females, and their cubs.</p>
+                                <p><strong>Habitat:</strong> African Savannah</p>
+                                <p><strong>Diet:</strong> Carnivore</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="animal-item" data-category="mammals">
+                        <img src="images/elephant.jpg" alt="Asian Elephant">
+                        <div class="animal-info">
+                            <h3>Asian Elephant</h3>
+                            <p>Elephas maximus</p>
+                            <p class="status endangered">Endangered</p>
+                            <button class="info-toggle">Learn More</button>
+                            <div class="animal-details">
+                                <p>Asian elephants are highly intelligent and social animals. Our herd includes 3 females and 1 male.</p>
+                                <p><strong>Habitat:</strong> Tropical Forests</p>
+                                <p><strong>Diet:</strong> Herbivore</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="animal-item" data-category="mammals">
+                        <img src="images/giraffe.jpg" alt="Reticulated Giraffe">
+                        <div class="animal-info">
+                            <h3>Reticulated Giraffe</h3>
+                            <p>Giraffa camelopardalis reticulata</p>
+                            <p class="status">Endangered</p>
+                            <button class="info-toggle">Learn More</button>
+                            <div class="animal-details">
+                                <p>Giraffes are the tallest land animals. Our tower includes 2 adults and 1 juvenile.</p>
+                                <p><strong>Habitat:</strong> African Savannah</p>
+                                <p><strong>Diet:</strong> Herbivore</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="animal-item" data-category="mammals">
+                        <img src="images/panda.jpg" alt="Giant Panda">
+                        <div class="animal-info">
+                            <h3>Giant Panda</h3>
+                            <p>Ailuropoda melanoleuca</p>
+                            <p class="status vulnerable">Vulnerable</p>
+                            <button class="info-toggle">Learn More</button>
+                            <div class="animal-details">
+                                <p>Giant pandas are beloved bears native to China. We have a breeding pair as part of the species survival plan.</p>
+                                <p><strong>Habitat:</strong> Bamboo Forests</p>
+                                <p><strong>Diet:</strong> Herbivore (mostly bamboo)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="animal-item" data-category="birds">
+                        <img src="images/penguin.jpg" alt="Emperor Penguin">
+                        <div class="animal-info">
+                            <h3>Emperor Penguin</h3>
+                            <p>Aptenodytes forsteri</p>
+                            <p class="status">Near Threatened</p>
+                            <button class="info-toggle">Learn More</button>
+                            <div class="animal-details">
+                                <p>Emperor penguins are the tallest and heaviest of all living penguin species.</p>
+                                <p><strong>Habitat:</strong> Antarctic</p>
+                                <p><strong>Diet:</strong> Carnivore</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="animal-item" data-category="reptiles">
+                        <div class="animal-img-placeholder">Komodo Dragon Image</div>
+                        <div class="animal-info">
+                            <h3>Komodo Dragon</h3>
+                            <p>Varanus komodoensis</p>
+                            <p class="status endangered">Endangered</p>
+                            <button class="info-toggle">Learn More</button>
+                            <div class="animal-details">
+                                <p>Komodo dragons are the largest living lizards in the world.</p>
+                                <p><strong>Habitat:</strong> Indonesian Islands</p>
+                                <p><strong>Diet:</strong> Carnivore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WildScape Zoo</h3>
+                    <p>Conserving wildlife for future generations</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="animals.html">Animals</a></li>
+                        <li><a href="visit.html">Visit</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>123 Wildlife Drive</p>
+                    <p>Anytown, AS 12345</p>
+                    <p>info@wildscapezoo.com</p>
+                    <p>(555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 WildScape Zoo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

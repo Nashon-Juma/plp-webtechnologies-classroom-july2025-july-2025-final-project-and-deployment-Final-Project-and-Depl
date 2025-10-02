@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Visit - WildScape Zoo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+   <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>WildScape Zoo</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
+                    <li class="nav-item"><a href="animals.html" class="nav-link">Animals</a></li>
+                    <li class="nav-item"><a href="visit.html" class="nav-link">Visit</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Plan Your Visit</h1>
+                <p>Everything you need to know for your WildScape Zoo adventure</p>
+            </div>
+        </section>
+
+        <section class="visit-info">
+            <div class="container">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Hours & Admission</h3>
+                        <div class="hours">
+                            <p><strong>Open Daily:</strong> 9:00 AM - 6:00 PM</p>
+                            <p><strong>Last Entry:</strong> 4:30 PM</p>
+                        </div>
+                        <div class="pricing">
+                            <h4>Admission Prices</h4>
+                            <ul>
+                                <li>Adults (13+): $25</li>
+                                <li>Children (3-12): $15</li>
+                                <li>Seniors (65+): $20</li>
+                                <li>Children under 3: Free</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Daily Schedule</h3>
+                        <div class="schedule">
+                            <div class="schedule-item">
+                                <span class="time">9:30 AM</span>
+                                <span class="event">Penguin Feeding</span>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="time">11:00 AM</span>
+                                <span class="event">Elephant Bath Time</span>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="time">1:00 PM</span>
+                                <span class="event">Bird Show</span>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="time">2:30 PM</span>
+                                <span class="event">Lion Talk</span>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="time">4:00 PM</span>
+                                <span class="event">Reptile Encounter</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Zoo Map</h3>
+                        <div class="zoo-map">
+                            <div class="map-placeholder">
+                                <p>Interactive Zoo Map</p>
+                                <p>Key Areas:</p>
+                                <ul>
+                                    <li>African Savannah</li>
+                                    <li>Asian Forest</li>
+                                    <li>Australian Outback</li>
+                                    <li>Penguin Coast</li>
+                                    <li>Reptile House</li>
+                                    <li>Children's Zoo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Accessibility</h3>
+                        <p>WildScape Zoo is committed to being accessible to all visitors:</p>
+                        <ul>
+                            <li>Wheelchair rentals available</li>
+                            <li>Accessible restrooms throughout the park</li>
+                            <li>Service animals welcome</li>
+                            <li>Audio guides available</li>
+                            <li>Designated parking spaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ticket-booking">
+            <div class="container">
+                <h2>Book Your Tickets</h2>
+                <form class="booking-form" id="ticket-form">
+                    <div class="form-group">
+                        <label for="visit-date">Visit Date:</label>
+                        <input type="date" id="visit-date" name="visit-date" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="ticket-type">Ticket Type:</label>
+                        <select id="ticket-type" name="ticket-type" required>
+                            <option value="">Select Ticket Type</option>
+                            <option value="adult">Adult (13+) - $25</option>
+                            <option value="child">Child (3-12) - $15</option>
+                            <option value="senior">Senior (65+) - $20</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="total">Total:</label>
+                        <input type="text" id="total" name="total" readonly value="$0">
+                    </div>
+                    
+                    <button type="submit" class="cta-button">Book Now</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WildScape Zoo</h3>
+                    <p>Conserving wildlife for future generations</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="animals.html">Animals</a></li>
+                        <li><a href="visit.html">Visit</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>123 Wildlife Drive</p>
+                    <p>Anytown, AS 12345</p>
+                    <p>info@wildscapezoo.com</p>
+                    <p>(555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 WildScape Zoo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
